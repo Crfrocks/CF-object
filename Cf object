@@ -1,0 +1,47 @@
+	import java.util.Random;
+		
+		public class cfobject {
+	
+			public int sides;
+			Random generator = new Random();
+			
+			public cfobject() {
+				sides = 6;
+			}
+			public cfobject (int numSpaces) {
+				sides = numSpaces;
+				
+			}
+	
+				
+		
+					
+				
+			public int dicevalue1() {
+				int dice1 = generator.nextInt(6);
+				return dice1;
+			}
+			public int dicevalue2() {
+			 int dice2 = generator.nextInt(6);
+			 return dice2;
+			}
+			{
+				
+			}
+			{
+				
+			}
+			public int getSides() {
+			return sides;	
+			}
+			public int sumRoll() {
+				int dice1 = generator.nextInt(sides) + 1;
+				System.out.println("You rolled a " + dice1 + "!");
+				int dice2 = generator.nextInt(sides) + 1;
+				System.out.println("You rolled a " + dice2 + "!");
+				int sum = dice1 + dice2;
+				return sum;
+				
+				
+}
+}
