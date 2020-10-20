@@ -1,0 +1,18 @@
+import java.util.Random;
+public class cfobjecttester {
+	
+
+	public static void main(String[] args) {
+	Random generator = new Random(); {
+		cfobject throw1 = new cfobject(6);
+		System.out.println("This dice has " + throw1.getSides() + " sides.");
+		cfobject throw2 = new cfobject ();
+		System.out.println("You may advance " + throw2.sumRoll() + " spaces foreward");
+		
+		
+	
+	
+	
+	}
+	
+	}}
